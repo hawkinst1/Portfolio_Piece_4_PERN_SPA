@@ -1,0 +1,35 @@
+
+.mobile__navbar {
+    display: none;
+}
+
+.app__navbar {
+    background-color: black;
+    height: 150px;
+}
+.app__navbar img {
+    width: 20%;
+}
+
+.app__navbar-menu_list li {
+    display: inline;
+    margin: 10px;
+    list-style: none;
+}
+
+.app__navbar-menu_list li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 59px
+}
+
+.app__navbar-menu_list li:hover a{
+    border-bottom: 4px solid #ec6335;
+}
+
+.app__navbar-options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+

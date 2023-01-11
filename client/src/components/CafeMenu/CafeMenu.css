@@ -1,0 +1,30 @@
+.cafe__container {
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.cafe__container-content{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cafe__container-content-left, .cafe__container-content-right {
+    text-align: center;
+    width: 33%
+}
+
+.cafe__container-content-middle {
+    height: 100%;
+    width: 33%;
+    background-image: url("../../assets/cafe.jpg");
+    background-repeat: none;
+    background-size: cover;   
+}
+
+.cafe__container-content-left_menu {
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+}

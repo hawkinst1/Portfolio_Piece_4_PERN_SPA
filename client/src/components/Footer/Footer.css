@@ -1,0 +1,27 @@
+.footer__member_container{
+    display: flex;
+    align-items: flex-end;
+}
+.footer__member_container_content {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(36, 34, 34);
+    border-top: 5px solid var(--title__text-color); 
+    flex-direction: column;  
+    padding: 1rem;
+}
+
+.footer__member-icons {
+    height: 50%;
+    width: 70%;
+}
+
+.footer__member-icons-images img{
+    margin:1rem;
+    cursor: pointer;
+}
+
+.footer__member-links {
+    height: 50%;
+    width: 100%;
+}

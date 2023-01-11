@@ -1,0 +1,39 @@
+.BM__container {
+    padding: 2rem
+}
+
+.BM__container-content {
+    width: 70%;
+    height: 50%;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.BM__container-content-text{
+    height: 50%;
+    width: 100%;
+}
+    
+a:link {
+    text-decoration: none;
+    color: var(--title__text-color);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: var(--title__text-color);
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: var(--title__text-color);
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: var(--title__text-color);
+  }

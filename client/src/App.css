@@ -1,0 +1,9 @@
+.title_text {
+    color: var(--title__text-color);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+  }

@@ -1,0 +1,32 @@
+.register__container {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    margin-top: 5rem ;
+    border-radius: 2%;
+    border: 3px solid var(--title__text-color);
+    
+}
+
+.title__Style-reg{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color:var(--title__text-color);
+    padding: 0 1.5rem;
+    margin: 1rem;
+}
+.reg__container-label label{
+    margin: 2.5rem;
+    padding: 0.5rem;
+}
+
+.reg__container-label input{
+    margin: 2.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: var(--colour-white);
+    border: 2px solid var(--title__text-color);
+    border-radius: 1rem;    
+}
+

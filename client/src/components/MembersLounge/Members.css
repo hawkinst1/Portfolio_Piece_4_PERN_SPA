@@ -1,0 +1,25 @@
+.members__container{
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    background-color: black;
+}
+
+.members__container-content{
+    height: 98%;
+    width: 50%;
+    padding: 1rem 2rem;
+    background-image: url("../../assets/member_left.jpg");
+    background-size: cover;
+}
+
+.members__container-content h1{
+   text-align: center;
+}
+
+.members_right {
+    background-image: url("../../assets/members.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
